@@ -9,6 +9,7 @@ export type Product = {
   id: string;
   name: string;
   category: string;
+  image: string;
   description: string;
   shortDescription: string;
   features: string[];
@@ -25,6 +26,7 @@ export const catalog: Product[] = [
     id: 'boondi-laddu',
     name: 'Boondi Laddu',
     category: 'temple-sweets',
+    image: '/products/boondi-laddu.jpg',
     description: 'Golden boondi pearls bound in saffron syrup and pure cow ghee, finished with a whisper of cardamom.',
     shortDescription: 'Golden boondi pearls bound in saffron syrup and pure cow ghee.',
     features: ['Bestseller', 'Most Popular', 'Handrolled'],
@@ -43,6 +45,7 @@ export const catalog: Product[] = [
     id: 'mysore-pak',
     name: 'Mysore Pak',
     category: 'temple-sweets',
+    image: '/products/mysore-pak.jpg',
     description: 'Soft, melting bricks of besan and ghee — a temple-town classic with warm nostalgia.',
     shortDescription: 'Soft, melting bricks of besan and ghee — a temple-town classic.',
     features: ['Traditional', 'Festive Favorite'],
@@ -61,6 +64,7 @@ export const catalog: Product[] = [
     id: 'kaju-katli',
     name: 'Kaju Katli',
     category: 'temple-sweets',
+    image: '/products/kaju-katli.jpg',
     description: 'Diamond-cut cashew fudge layered with edible silver leaf for a refined festive delight.',
     shortDescription: 'Diamond-cut cashew fudge layered with edible silver leaf.',
     features: ['Premium', 'Gift Ready'],
@@ -79,6 +83,7 @@ export const catalog: Product[] = [
     id: 'murukku',
     name: 'Murukku',
     category: 'festive-savories',
+    image: '/products/murukku.jpg',
     description: 'Coiled rice-flour spirals, fried in cold-pressed groundnut oil for the perfect crunch.',
     shortDescription: 'Coiled rice-flour spirals, fried in cold-pressed groundnut oil.',
     features: ['Crunchy', 'Tea Time'],
@@ -96,6 +101,7 @@ export const catalog: Product[] = [
     id: 'gongura-pachadi',
     name: 'Gongura Pachadi',
     category: 'summer-pickles',
+    image: '/products/gongura-pachadi.jpg',
     description: 'Tangy gongura leaves married with spices and oil for a bold Andhra pickle experience.',
     shortDescription: 'Tangy gongura pickle with rich Andhra spices.',
     features: ['Tangy', 'Seasonal'],
@@ -113,6 +119,7 @@ export const catalog: Product[] = [
     id: 'milagai-podi',
     name: 'Milagai Podi',
     category: 'daily-podis',
+    image: '/products/milagai-podi.jpg',
     description: 'Aromatic spice blend that brings traditional Telugu flavor to every dosa and rice meal.',
     shortDescription: 'Spice-packed podi made for everyday meals.',
     features: ['Everyday', 'Savory'],

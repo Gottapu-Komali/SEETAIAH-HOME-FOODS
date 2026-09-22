@@ -25,11 +25,11 @@ export default function ProductCard({ product }: Props) {
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(217,145,40,0.22),_transparent_45%)]" />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.15),rgba(255,255,255,0.02))]" />
           <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white/90 to-transparent" />
-          <div className="absolute inset-0 flex items-center justify-center text-center px-6">
-            <div className="rounded-[1.75rem] border border-border bg-white/80 p-6 shadow-sm">
-              <p className="text-sm uppercase tracking-[0.35em] text-slate">Product Image</p>
-            </div>
-          </div>
+          <img
+            src={product.image}
+            alt={product.name}
+            className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
         </div>
       </Link>
 
